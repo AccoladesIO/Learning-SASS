@@ -1,0 +1,114 @@
+@import './abstract/function';
+@import './abstract/mixin';
+@import './abstract/variable';
+@import './base/base';
+@import './layout/header';
+@import './base/typography';
+@import './base/utility';
+@import './component/button';
+@import './base/animation';
+@import './pages/homes';
+
+// $color-primary: #f9ed69;
+// $color-secondary: #f08a5d;
+// $color-tetiary: #683b58;
+// $color-text-dark: #333;
+// $color-text-light: #eee;
+// $btn-width: 150px;
+
+// // MIXING IN SASS
+
+
+// @mixin  clearfix {
+//     &::after{
+//         content: "";
+//         clear: both;
+//         display: table;
+//     }
+// }
+// @mixin textReset($color) {
+//     text-decoration: none;
+//     text-transform: uppercase;
+//     color: $color;
+// }
+// // Function in sass
+// @function divide($ev-1, $ev-2){
+//     @return ($ev-1/$ev-2);
+// }
+
+// // Placeholder
+
+// %btn-placeholder{
+//     padding: 10px;
+//     border-radius: 20px;
+//     text-align: center;
+//     width: $btn-width;
+//     display: inline-block;
+// }
+
+// nav{
+//     margin: divide(60, 2)*1px;
+//     background: $color-primary;
+//     @include clearfix;
+//     ul{
+//         float: left;
+//         li{
+//             margin-left: 30px;
+//             display: inline-block;
+//             &:first-child{
+//                 margin: 0;
+//             }
+//             a{
+//               @include textReset($color-text-dark);
+//             }
+//         }
+        
+//     }
+//     .button{
+//         float: right;
+//         color: $color-text-dark;
+//         .btn-main, .btn-alt{
+//            @extend %btn-placeholder;
+//         }
+//         .btn-main{
+//             &:link{
+//                 background-color: $color-secondary;
+//             }
+//             &:hover, &:visited{
+//                 background-color: darken($color-secondary, 15%);
+//             }
+//         }
+//         .btn-alt{
+//             &:link{
+//                 background-color: $color-tetiary;
+//             }
+//             &:hover, &:visited{
+//                 background-color: darken($color-tetiary, 10%);
+//             }
+//         }
+//         a{
+//            @include textReset($color-text-light);
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+
+
+/* fonts */
+
+// @mixin  btnStyle {
+ 
+// }
+// @function divide($ev-1, $ev-2){
+//     @return ($ev-1/$ev-2);
+// }
+
+
+
+
